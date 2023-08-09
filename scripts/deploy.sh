@@ -11,7 +11,7 @@
 ##                      O      *        '       .                             ##
 ##                                                                            ##
 ##  File      : deploy.sh                                                     ##
-##  Project   : gameboy_css                                                   ##
+##  Project   : gameboy-css                                                   ##
 ##  Date      : 2023-08-09                                                    ##
 ##  License   : GPLv3                                                         ##
 ##  Author    : mateus.digital <hello@mateus.digital>                         ##
@@ -35,7 +35,7 @@ readonly ROOT_DIR="$(dirname "$SCRIPT_DIR")";
 
 readonly SOURCE_FOLDER="${ROOT_DIR}/out";
 readonly REMOTE_SERVER="mateus@mateus.digital";
-readonly REMOTE_FOLDER="/var/www/mateus.digital/html/gameboy_css";
+readonly REMOTE_FOLDER="/var/www/mateus.digital/html/gameboy-css";
 
 rsync -avz                                       \
       "${SOURCE_FOLDER}/"                        \

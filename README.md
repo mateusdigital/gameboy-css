@@ -16,7 +16,7 @@ and I saw it as an opportunity to start to get into making art with CSS.
 
 This is my very first project and I'm very happy with it :)
 
-You can [check it online](https://mateus.digital/gameboy_css).
+You can [check it online](https://mateus.digital/gameboy-css).
 
 <br>
 
@@ -27,8 +27,8 @@ As usual, you are **very welcomed** to **share** and **hack** it.
 
 
 ```bash
-git clone https://github.com/mateusdigital/gameboy_css
-cd gameboy_css
+git clone https://github.com/mateusdigital/gameboy-css
+cd gameboy-css
 ./scripts/build-static.sh      ## Builds the webpage for the project.
 ```
 
